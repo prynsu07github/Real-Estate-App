@@ -20,13 +20,13 @@ const Navbar = () => {
         </form>
         <ul className="flex gap-5 items-center">
           <Link to='/'>
-            <li>Home</li>
+            <li className="hidden sm:inline text-slate-700">Home</li>
           </Link>
           <Link to='/about'>
-            <li>About</li>
+            <li className="hidden sm:inline text-slate-700">About</li>
           </Link>
           <Link to='/sign-in'>
-            <li className="bg-slate-500 text-slate-100 p-1 md:p-2 rounded-md font-bold">
+            <li className="bg-slate-500 text-slate-100 p-1  rounded-md font-bold hover:opacity-90 text-sm md:p-2">
               Sign In
             </li>
           </Link>
